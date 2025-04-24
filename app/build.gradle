@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.weather'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.weather"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -41,4 +41,15 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+
+
+    // Navigation Component
+    def nav_version = "2.7.7"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+
 }
