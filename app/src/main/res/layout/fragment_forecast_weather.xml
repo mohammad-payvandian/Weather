@@ -37,7 +37,7 @@
         android:id="@+id/tvLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="The weather in Munich is:"
+        android:text="The weather is:"
         android:gravity="center_horizontal"
         android:layout_marginTop="8dp" />
 
@@ -46,7 +46,6 @@
         android:id="@+id/tvTemperature"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="27°C"
         android:textSize="32sp"
         android:textStyle="bold"
         android:gravity="center_horizontal"
@@ -57,7 +56,6 @@
         android:id="@+id/tvCondition"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Broken clouds"
         android:gravity="center_horizontal" />
 
     <!-- Local Time -->
@@ -65,7 +63,6 @@
         android:id="@+id/tvTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="at 17:14 LOCAL TIME"
         android:textSize="12sp"
         android:gravity="center_horizontal"
         android:textColor="#777777"

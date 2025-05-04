@@ -15,6 +15,6 @@
 
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.example.weather.ui.ForecastWeatherFragment"
+        android:name="com.example.weather.ui.forecast.ForecastWeatherFragment"
         android:label="Second Fragment" />
 </navigation>

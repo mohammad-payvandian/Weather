@@ -2,9 +2,9 @@ package com.example.weather
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.weather.ui.ForecastWeatherFragment
-import com.example.weather.ui.MainWeatherFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
