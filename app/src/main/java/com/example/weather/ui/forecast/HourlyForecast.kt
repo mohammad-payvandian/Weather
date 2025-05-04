@@ -1,4 +1,4 @@
-package com.example.weather.forecast
+package com.example.weather.ui.forecast
 
     data class HourlyForecast(
         val time: String,
